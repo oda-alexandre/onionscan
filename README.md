@@ -43,6 +43,6 @@ Pour scanner un site en .onion copier/coller dans un terminal
 sudo service tor start && sudo service privoxy start && onionscan --torProxyAddress=127.0.0.1:9050 http://lesite.onion
 ```
 
-**LICENSE**
+## LICENSE
 
 [![GPLv3+](http://gplv3.fsf.org/gplv3-127x51.png)](https://github.com/oda-alexandre/onionscan/blob/master/LICENSE)
