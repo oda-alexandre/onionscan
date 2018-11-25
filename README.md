@@ -1,6 +1,6 @@
 # ONIONSCAN
 
-![onionscan](https://raw.githubusercontent.com/oda-alexandre/onionscan/master/logo-onionscan.png) ![docker](https://raw.githubusercontent.com/oda-alexandre/onionscan/master/logo-docker.png)
+![onionscan](https://raw.githubusercontent.com/oda-alexandre/onionscan/master/img/logo-onionscan.png) ![docker](https://raw.githubusercontent.com/oda-alexandre/onionscan/master/img/logo-docker.png)
 
 
 ## INDEX
