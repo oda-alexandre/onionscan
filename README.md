@@ -31,7 +31,7 @@ Installer [Docker](https://www.docker.com)
 ## INSTALLATION
 
 ```
-docker run -ti --rm --name onionscan alexandreoda/onionscan
+docker run -ti --rm --name onionscan -v ${HOME}:/home/onionscan alexandreoda/onionscan
 ```
 
 
