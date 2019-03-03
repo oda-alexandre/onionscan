@@ -5,7 +5,7 @@
 
 ## INDEX
 
-- [Build Docker](#BUILD)
+- [Badges](#BADGES)
 - [Introduction](#INTRODUCTION)
 - [Prerequis](#PREREQUIS)
 - [Installation](#INSTALLATION)
@@ -13,7 +13,7 @@
 - [License](#LICENSE)
 
 
-## BUILD DOCKER
+## Badges
 
 [![onionscan docker build](https://img.shields.io/docker/build/alexandreoda/onionscan.svg)](https://hub.docker.com/r/alexandreoda/onionscan)
 
