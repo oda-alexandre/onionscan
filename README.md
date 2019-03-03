@@ -1,6 +1,6 @@
 # ONIONSCAN
 
-![onionscan](https://raw.githubusercontent.com/oda-alexandre/onionscan/master/img/logo-onionscan.png) ![docker](https://raw.githubusercontent.com/oda-alexandre/onionscan/master/img/logo-docker.png)
+[![dockeri.co](https://dockeri.co/image/alexandreoda/atom)](https://hub.docker.com/r/alexandreoda/atom)
 
 
 ## INDEX
@@ -13,14 +13,21 @@
 - [License](#LICENSE)
 
 
-## Badges
+## BADGES
 
-[![onionscan docker build](https://img.shields.io/docker/build/alexandreoda/onionscan.svg)](https://hub.docker.com/r/alexandreoda/onionscan)
+[![version](https://images.microbadger.com/badges/version/alexandreoda/atom.svg)](https://microbadger.com/images/alexandreoda/atom)
+[![size](https://images.microbadger.com/badges/image/alexandreoda/atom.svg)](https://microbadger.com/images/alexandreoda/atom")
+[![build](https://img.shields.io/docker/build/alexandreoda/atom.svg)](https://hub.docker.com/r/alexandreoda/atom)
+[![automated](https://img.shields.io/docker/automated/alexandreoda/atom.svg)](https://hub.docker.com/r/alexandreoda/atom)
 
 
 ## INTRODUCTION
 
-Ce repository contient le fichier Dockerfile de [onionscan](https://onionscan.org/) pour [docker](https://www.docker.com), mis à jour automatiquement dans le [docker hub](https://hub.docker.com/r/alexandreoda/onionscan/) public.
+Ce repository contient le fichier Dockerfile de
+
+- [onionscan](https://onionscan.org/)
+
+Mis à jour automatiquement dans le [docker hub public](https://hub.docker.com/r/alexandreoda/onionscan/).
 
 
 ## PREREQUIS
