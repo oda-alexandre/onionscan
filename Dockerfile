@@ -1,6 +1,6 @@
 FROM golang:rc-stretch
 
-MAINTAINER https://oda-alexandre.com
+MAINTAINER http://www.oda-alexandre.com/
 
 # VARIABLES
 ENV USER onionscan
