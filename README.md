@@ -1,6 +1,6 @@
 # ONIONSCAN
 
-[![dockeri.co](https://dockeri.co/image/alexandreoda/onionscan)](https://hub.docker.com/r/alexandreoda/onionscan)
+<img src="https://onionscan.org/assets/img/logo.png" />
 
 
 ## INDEX
@@ -15,10 +15,7 @@
 
 ## BADGES
 
-[![version](https://images.microbadger.com/badges/version/alexandreoda/onionscan.svg)](https://microbadger.com/images/alexandreoda/onionscan)
-[![size](https://images.microbadger.com/badges/image/alexandreoda/onionscan.svg)](https://microbadger.com/images/alexandreoda/onionscan")
-[![build](https://img.shields.io/docker/build/alexandreoda/onionscan.svg)](https://hub.docker.com/r/alexandreoda/onionscan)
-[![automated](https://img.shields.io/docker/automated/alexandreoda/onionscan.svg)](https://hub.docker.com/r/alexandreoda/onionscan)
+[![pipeline status](https://gitlab.com/oda-alexandre/onionscan/badges/master/pipeline.svg)](https://gitlab.com/oda-alexandre/onionscan/commits/master)
 
 
 ## INTRODUCTION
