@@ -7,9 +7,9 @@
 
 - [Badges](#BADGES)
 - [Introduction](#INTRODUCTION)
-- [Prerequis](#PREREQUIS)
-- [Installation](#INSTALLATION)
-- [Utilisation](#UTILISATION)
+- [Prerequisites](#PREREQUISITESITES)
+- [Install](#INSTALL)
+- [Use](#USE)
 - [License](#LICENSE)
 
 
@@ -20,28 +20,34 @@
 
 ## INTRODUCTION
 
-Ce repository contient le fichier Dockerfile de
+Docker image of :
 
 - [onionscan](https://onionscan.org/)
 
-Mis à jour automatiquement dans le [docker hub public](https://hub.docker.com/r/alexandreoda/onionscan/).
+Continuous integration on :
+
+- [gitlab](https://gitlab.com/oda-alexandre/onionscan/pipelines)
+
+Automatically updated on :
+
+- [docker hub public](https://hub.docker.com/r/alexandreoda/onionscan/)
 
 
-## PREREQUIS
+## PREREQUISITES
 
-Installer [docker](https://www.docker.com)
+Use [docker](https://www.docker.com)
 
 
-## INSTALLATION
+## INSTALL
 
 ```
 docker run -ti --rm --name onionscan -v ${HOME}:/home/onionscan alexandreoda/onionscan
 ```
 
 
-## UTILISATION
+## USE
 
-Pour scanner un site en .onion copier/coller dans un terminal
+Pour scanner a site in .onion copy/paste  in  a terminal
 
 ```
 sudo service tor start && sudo service privoxy start && onionscan --torProxyAddress=127.0.0.1:9050 http://lesite.onion
@@ -49,4 +55,4 @@ sudo service tor start && sudo service privoxy start && onionscan --torProxyAddr
 
 ## LICENSE
 
-[![GPLv3+](http://gplv3.fsf.org/gplv3-127x51.png)](https://github.com/oda-alexandre/onionscan/blob/master/LICENSE)
+[![GPLv3+](http://gplv3.fsf.org/gplv3-127x51.png)](https://gitlab.com/oda-alexandre/onionscan/blob/master/LICENSE)
