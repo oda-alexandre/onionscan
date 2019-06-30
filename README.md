@@ -47,7 +47,7 @@ docker run -ti --rm --name onionscan -v ${HOME}:/home/onionscan alexandreoda/oni
 
 ## USE
 
-Pour scanner a site in .onion copy/paste  in  a terminal
+For scann a site in .onion copy/paste  in  a terminal
 
 ```
 sudo service tor start && sudo service privoxy start && onionscan --torProxyAddress=127.0.0.1:9050 http://lesite.onion
