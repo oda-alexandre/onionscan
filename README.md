@@ -1,6 +1,6 @@
 # ONIONSCAN
 
-<img src="https://onionscan.org/assets/img/logo.png" />
+<img src="https://onionscan.org/assets/img/logo.png" width="200" height="200"/>
 
 
 ## INDEX
