@@ -108,8 +108,8 @@ test:
   script:
     - echo -e '\033[36;1m ******* TEST RUN ******** \033[0m'
     - docker pull $CI_REGISTRY_IMAGE
-    - docker run --rm $CI_REGISTRY_IMAGE
-    - docker exec -ti $CI_REGISTRY_IMAGE
+    - docker run --rm $CI_REGISTRY_IMAGE &&
+        docker exec -ti $CI_REGISTRY_IMAGE
         sudo service tor start
         sudo service privoxy start
         onionscan --torProxyAddress=127.0.0.1:9050 http://mijpsrtgf54l7um6.onion/
