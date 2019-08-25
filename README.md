@@ -2,7 +2,6 @@
 
 <img src="https://onionscan.org/assets/img/logo.png" width="200" height="200"/>
 
-
 ## INDEX
 
 - [Badges](#BADGES)
@@ -12,11 +11,9 @@
 - [Use](#USE)
 - [License](#LICENSE)
 
-
 ## BADGES
 
 [![pipeline status](https://gitlab.com/oda-alexandre/onionscan/badges/master/pipeline.svg)](https://gitlab.com/oda-alexandre/onionscan/commits/master)
-
 
 ## INTRODUCTION
 
@@ -32,26 +29,19 @@ Automatically updated on :
 
 - [docker hub public](https://hub.docker.com/r/alexandreoda/onionscan/)
 
-
 ## PREREQUISITES
 
 Use [docker](https://www.docker.com)
 
-
 ## INSTALL
 
-```
-docker run -ti --rm --name onionscan -v ${HOME}:/home/onionscan alexandreoda/onionscan
-```
-
+```docker run -ti --rm --name onionscan -v ${HOME}:/home/onionscan alexandreoda/onionscan```
 
 ## USE
 
 For scann a site in .onion copy/paste  in  a terminal
 
-```
-sudo service tor start && sudo service privoxy start && onionscan --torProxyAddress=127.0.0.1:9050 http://lesite.onion
-```
+```sudo service tor start && sudo service privoxy start && onionscan --torProxyAddress=127.0.0.1:9050 http://lesite.onion```
 
 ## LICENSE
 
