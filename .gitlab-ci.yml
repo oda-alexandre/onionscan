@@ -9,10 +9,6 @@ stages:
   - staging
   - deploy
 
-before_script:
-  - echo -e '\033[36;1m ******* DOCKER LOGIN REGISTRY ******** \033[0m'
-  - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
-
 build:
   stage: build
   allow_failure: false
@@ -103,8 +99,7 @@ test_app:
   script:
     - echo -e '\033[36;1m ******* TEST APP ******** \033[0m'
     - docker build -t ${CI_PROJECT_NAME} .
-    - docker run --rm ${CI_PROJECT_NAME} &&
-        docker exec -ti ${CI_PROJECT_NAME}
+    - docker run --rm ${CI_PROJECT_NAME}
         sudo service tor start
         sudo service privoxy start
         onionscan --torProxyAddress=127.0.0.1:9050 http://mijpsrtgf54l7um6.onion/
