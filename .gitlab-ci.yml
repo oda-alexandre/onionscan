@@ -6,7 +6,6 @@ services:
 stages:
   - build
   - test
-  - date
   - staging
   - deploy
 
@@ -104,15 +103,6 @@ test_app:
         sudo service tor start
         sudo service privoxy start
         onionscan --torProxyAddress=127.0.0.1:9050 http://mijpsrtgf54l7um6.onion/
-  only:
-    - dev
-
-date:
-  stage: date
-  allow_failure: false
-  script:
-    - echo -e '\033[36;1m ******* DATE ******** \033[0m'
-    - "date=$(date +\"%Y-%m-%d\") && sed -i \"s/^Date: .*/Date: $date/\" README.md"
   only:
     - dev
 
