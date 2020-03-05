@@ -40,7 +40,8 @@ Use [docker](https://www.docker.com)
 
 ### DOCKER RUN
 
-```docker run -ti --rm --name onionscan -v ${HOME}:/home/onionscan alexandreoda/onionscan```
+```\
+docker  run -ti --rm --name onionscan -v ${HOME}:/home/onionscan alexandreoda/onionscan```
 
 ## USE
 
