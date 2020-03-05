@@ -12,6 +12,7 @@
   - [INSTALL](#install)
     - [DOCKER RUN](#docker-run)
     - [DOCKER COMPOSE](#docker-compose)
+  - [USE](#use)
   - [LICENSE](#license)
 
 ## BADGES
@@ -41,13 +42,11 @@ Use [docker](https://www.docker.com)
 ### DOCKER RUN
 
 ```\
-docker  run -ti --rm --name onionscan -v ${HOME}:/home/onionscan alexandreoda/onionscan```
-
-## USE
-
-For scann a site in .onion copy/paste  in  a terminal
-
-```sudo service tor start && sudo service privoxy start && onionscan --torProxyAddress=127.0.0.1:9050 http://lesite.onion```
+docker run -ti --rm \
+--name onionscan \
+-v ${HOME}:/home/onionscan \
+alexandreoda/onionscan
+```
 
 ### DOCKER COMPOSE
 
@@ -62,6 +61,14 @@ services:
     privileged: false
     volumes:
       - "${HOME}:/home/onionscan"
+```
+
+## USE
+
+For scann a site in .onion copy/paste  in  a terminal
+
+```\
+sudo service tor start && sudo service privoxy start && onionscan --torProxyAddress=127.0.0.1:9050 http://lesite.onion
 ```
 
 ## LICENSE
