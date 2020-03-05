@@ -10,6 +10,8 @@
   - [INTRODUCTION](#introduction)
   - [PREREQUISITES](#prerequisites)
   - [INSTALL](#install)
+    - [DOCKER RUN](#docker-run)
+    - [DOCKER COMPOSE](#docker-compose)
   - [LICENSE](#license)
 
 ## BADGES
@@ -24,7 +26,7 @@ Docker image of :
 
 Continuous integration on :
 
-- [gitlab](https://gitlab.com/oda-alexandre/onionscan/pipelines)
+- [gitlab pipelines](https://gitlab.com/oda-alexandre/onionscan/pipelines)
 
 Automatically updated on :
 
@@ -36,6 +38,8 @@ Use [docker](https://www.docker.com)
 
 ## INSTALL
 
+### DOCKER RUN
+
 ```docker run -ti --rm --name onionscan -v ${HOME}:/home/onionscan alexandreoda/onionscan```
 
 ## USE
@@ -43,6 +47,21 @@ Use [docker](https://www.docker.com)
 For scann a site in .onion copy/paste  in  a terminal
 
 ```sudo service tor start && sudo service privoxy start && onionscan --torProxyAddress=127.0.0.1:9050 http://lesite.onion```
+
+### DOCKER COMPOSE
+
+```yml
+version: "3.7"
+
+services:
+  onionscan:
+    container_name: onionscan
+    image: alexandreoda/onionscan
+    restart: no
+    privileged: false
+    volumes:
+      - "${HOME}:/home/onionscan"
+```
 
 ## LICENSE
 

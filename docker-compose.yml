@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  onionscan:
+    container_name: onionscan
+    image: alexandreoda/onionscan
+    restart: no
+    privileged: false
+    volumes:
+      - "${HOME}:/home/onionscan"
