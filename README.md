@@ -2,8 +2,6 @@
 
 ![logo](https://assets.gitlab-static.net/uploads/-/system/project/avatar/12904463/urzL3TmF_400x400.jpg)
 
-## INDEX
-
 - [ONIONSCAN](#onionscan)
   - [INDEX](#index)
   - [BADGES](#badges)
@@ -37,7 +35,7 @@ Automatically updated on :
 
 Use [docker](https://www.docker.com)
 
-## INSTALL
+## BUILD
 
 ### DOCKER RUN
 
